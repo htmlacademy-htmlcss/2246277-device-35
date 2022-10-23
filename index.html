@@ -9,12 +9,12 @@
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <form class="site-search" action="https://echo.htmlacademy.ru/courses" method="get">
+            <form class="site-search-form" action="https://echo.htmlacademy.ru/courses" method="get">
+              <label for="find-button"></label>
               <input type="text" name="site-search" id="find-button" placeholder="Поиск по сайту">
-              <label for="find-button">
-               <button class="navigation-link" href="https://echo.htmlacademy.ru/courses">Найти</button>
-              </label>
-              </input>
+               <button class="navigation-link" type="submit">
+                <span>Найти</span>
+               </button>
             </form>
           </li>
           <li>
@@ -47,7 +47,7 @@
         <p class="device-destription">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.
         </p>
         <a class="details-button" href="#">Подробнее</a>
-        <h2 class="visually-hidden">Преимущества</h2>            <!-- Не должно быть видно строку преимущество  -->
+        <h2 class="visually-hidden">Преимущества.</h2>            <!-- Не должно быть видно строку преимущество  -->
         <ul class="adventages">
           <li>
             <h3>800 м</h3>
@@ -58,8 +58,9 @@
             <p>Радиус поражения</p>
           </li>
         </ul>
-        <section class="catalog">
-        <ul class="catalog-item">
+        <section class="catalog" >
+          <h2 class="visually-hidden">Список товаров.</h2>
+          <ul class="catalog-item">
           <li>Виртуальная реальность</li>
           <li>Моноподы для селфи</li>
           <li>Экшн-камеры</li>
