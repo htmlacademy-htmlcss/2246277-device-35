@@ -177,6 +177,7 @@ background-color: #fbf7f4;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #000000;
+  background: #F0F0F0;
 }
 
 .about-us{
@@ -262,8 +263,9 @@ background-color: #fbf7f4;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  text-decoration-line: underline;
+  text-decoration: none;
   color: #444444;
+  text-decoration-line: underline;
 }
 
 .work-time{
@@ -286,18 +288,34 @@ background-color: #fbf7f4;
 
 .newsletter-email{
   background-color: #F0F0F0;
-
 }
 
+.subscribe-newsletter{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.weekly-newsletter{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #444444;
+}
 
 .page-footer{
   color:#FFFFFF;
-  text-decoration: none;
   background-color: #444444;
 }
 
 .contact-adress-footer{
   font-family: 'Rubik', sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -305,7 +323,8 @@ background-color: #fbf7f4;
 }
 
 .navigation-footer-list{
-  font-family: 'Raleway';
+  font-family: 'Raleway' sans-serif;
+  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -315,7 +334,7 @@ background-color: #fbf7f4;
 }
 
 .contact-phone-footer{
-  font-family: 'Rubik';
+  font-family: 'Rubik' sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
