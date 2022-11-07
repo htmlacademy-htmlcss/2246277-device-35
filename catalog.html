@@ -3,6 +3,7 @@
    <head>
       <meta charset="utf-8">
       <title>Каталог</title>
+      <link rel="stylesheet" href="styles/style.css">
    </head>
    <body>
       <!DOCTYPE html>
@@ -29,6 +30,9 @@
                         </form>
                      </li>
                      <li>
+                      <a class="navigation-link" href="#">Коля Петухов</a>
+                   </li>
+                     <li>
                         <a class="navigation-link" href="#">Выйти</a>
                         <img class="person-area" src="images/person-area.svg" alt="Показывает иконку Личного кабинета." width="13" height="12">
                      </li>
@@ -41,17 +45,17 @@
                         <img class="comparison" src="images/basket.svg" alt="Показывает значок корзины." width="16" height="14">
                      </li>
                      <li>
-                        <a class="navigation-link" href="#">Каталог товаров</a>
+                        <a class="navigation-link-2" href="#">Каталог товаров</a>
                         <img src="images/plus.svg" alt="Показывает Каталог." width="16" height="16">
                      </li>
                      <li>
-                        <a class="navigation-link" href="#">Доставка</a>
+                        <a class="navigation-link-2" href="#">Доставка</a>
                      </li>
                      <li>
-                        <a class="navigation-link" href="#">Гарантия</a>
+                        <a class="navigation-link-2" href="#">Гарантия</a>
                      </li>
                      <li>
-                        <a class="navigation-link" href="#">Контакты</a>
+                        <a class="navigation-link-2" href="#">Контакты</a>
                      </li>
                   </ul>
                </nav>
@@ -72,7 +76,7 @@
                   </ul>
                </header>
                <section class="catalog-product">
-                  <h2>Фильтр:</h2>
+                  <h2 class="filter">Фильтр:</h2>
                   <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
                      <fieldset class="catalog-filter-group">
                         <legend class="catalog-filter-title">Цвет</legend>
@@ -85,7 +89,7 @@
                            </label>
                            <li class="catalog-filter-item">
                               <label class="control">
-                              <input class="control-input" type="checkbox" name="white" checket>
+                              <input class="control-input" type="checkbox" name="white" checked>
                            </li>
                            Белый
                            </label>
@@ -104,7 +108,7 @@
                            <li class="catalog-filter-item">
                               <label class="control">
                               <input class="control-input" type="checkbox" name="pink">
-                              Розовый
+                           Розовый
                               </label>
                            </li>
                         </ul>
@@ -118,15 +122,15 @@
                         </li>
                         Есть
                         <li class="catalog-filter-item">
-                        <label class="control">
-                        <input class="control-input" type="radio" name="product-group">
+                           <label class="control">
+                             <input class="control-input" type="radio" name="product-group">
                         </li>
                         Нет
                         </label>
                      </fieldset>
-                     <button class="show-filter" type="submit">Показать</button>
+                     <a class="show-filter" type="submit" href="#">Показать</a>
                   </form>
-                  <h2>Сортировка</h2>
+                  <h2 class="sort">Сортировка</h2>
                   <select class="select-control" aria-label="Сортировка">
                      <option value="popular">Популярные</option>
                      <option value="cheap">Дешевые</option>
@@ -155,7 +159,7 @@
                         <img class="product-card-image" src="images/selfie-profissional.png" alt="Профессиональная селфи-палка" width="360" height="380">
                         <h3 class="product-card-title">Профессиональная селфи-палка </h3>
                      </a>
-                     <b class="product-card-price">1 500 ₽ ₽</b>
+                     <b class="product-card-price">1 500 ₽</b>
                   </li>
                   <li class="product-card-list">
                      <a class="product-card-link" href="product.html">
@@ -164,19 +168,20 @@
                            селфи-палка
                         </h3>
                      </a>
-                     <b class="product-card-price">2 500 ₽ ₽</b>
+                     <b class="product-card-price">2 500 ₽</b>
                   </li>
                   <li class="product-card-list">
                      <a class="product-card-link" href="product.html">
                         <img class="product-card-image" src="images/selfie-followme.png" alt="Селфи-палка следуй за мной" width="360" height="380">
                         <h3 class="product-card-title">Селфи-палка «Следуй за мной»</h3>
                      </a>
-                     <b class="product-card-price">1 500 ₽ ₽</b>
+                     <b class="product-card-price">1 500 ₽</b>
                   </li>
+                  <a class="show-more" href="#">Загрузить еще</a>
                   <ul class="pagination">
                      <li class="pagintion-item">
                         <a class="pagination-link pagination-prev pagination-disable">
-                        <span class="vissualy-hidden">Назад</span>
+                        <span class="back">Назад</span>
                         </a>
                      </li>
                      <li class="pagination-item">
@@ -196,7 +201,7 @@
                      </li>
                      <li class="pagination-item">
                         <a class="pagination-link pagination-next" href="#">
-                        <span class="visually-hidden">Вперед</span>
+                        <span class="forward">Вперед</span>
                         </a>
                   </ul>
                </section>
